@@ -111,7 +111,7 @@ const HeroSection: React.FC = () => {
           >
             Empowering Students Through Technology
           </motion.p>
-          
+          <br />
           <motion.div 
             variants={itemVariants}
             className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-4"
