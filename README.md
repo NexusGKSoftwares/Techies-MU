@@ -67,10 +67,10 @@ To get started with the development of this project locally:
 4. Start the development server:
 
    ```bash
-   npm start
+   npm run dev
    ```
 
-   This will open the website in your default browser at `http://localhost:3000`.
+   This will open the website in your default browser at `http://localhost:8080`.
 
 ## Usage
 
