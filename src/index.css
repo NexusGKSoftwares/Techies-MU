@@ -1,0 +1,105 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 280 25% 7%;
+    --foreground: 210 40% 98%;
+
+    --card: 280 20% 12%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 280 20% 12%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 269 94% 76%;
+    --primary-foreground: 240 5% 10%;
+
+    --secondary: 199 87% 49%;
+    --secondary-foreground: 240 5% 10%;
+
+    --muted: 280 15% 20%;
+    --muted-foreground: 210 20% 80%;
+
+    --accent: 311 91% 68%;
+    --accent-foreground: 240 5% 10%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 280 15% 20%;
+    --input: 280 15% 20%;
+    --ring: 311 91% 68%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+  }
+
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-techies-purple via-techies-pink to-techies-blue;
+  }
+  
+  .text-pink-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-techies-pink via-techies-light-pink to-techies-neon-pink;
+  }
+  
+  .neon-border {
+    @apply border border-techies-purple shadow-neon;
+  }
+  
+  .pink-neon-border {
+    @apply border border-techies-pink shadow-pink-glow;
+  }
+  
+  .neon-border:hover {
+    @apply shadow-neon-hover;
+  }
+  
+  .pink-neon-border:hover {
+    @apply shadow-pink-glow;
+  }
+  
+  .gradient-btn {
+    @apply bg-gradient-to-r from-techies-purple to-techies-blue 
+           hover:from-techies-pink hover:to-techies-purple 
+           text-white font-medium py-2 px-6 rounded-md
+           transition-all duration-300 shadow-neon hover:shadow-neon-hover;
+  }
+  
+  .pink-btn {
+    @apply bg-gradient-to-r from-techies-pink to-techies-neon-pink 
+           hover:from-techies-magenta hover:to-techies-pink
+           text-white font-medium py-2 px-6 rounded-md
+           transition-all duration-300 shadow-pink-glow hover:shadow-pink-glow;
+  }
+  
+  .neon-bg {
+    @apply relative z-0;
+  }
+  
+  .neon-bg::before {
+    @apply content-[''] absolute inset-0 z-[-1] rounded-md bg-gradient-to-r from-techies-pink/20 to-techies-neon-pink/20 blur-xl;
+  }
+  
+  .pink-neon-bg {
+    @apply relative z-0;
+  }
+  
+  .pink-neon-bg::before {
+    @apply content-[''] absolute inset-0 z-[-1] rounded-md bg-gradient-to-r from-techies-magenta/30 to-techies-hot-pink/30 blur-xl;
+  }
+}
