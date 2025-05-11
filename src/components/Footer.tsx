@@ -19,7 +19,7 @@ const Footer: React.FC = () => {
             
             <div className="mt-6 flex items-center">
               <span className="text-foreground/50 text-sm">Powered by</span>
-              <span className="ml-2 font-semibold text-gradient">MoiHub</span>
+              <span className="ml-2 font-semibold text-gradient">NexusGK & MoiHub</span>
             </div>
           </div>
           
@@ -71,9 +71,11 @@ const Footer: React.FC = () => {
         
         <div className="mt-10 pt-6 border-t border-muted flex flex-col md:flex-row justify-between items-center">
           <p className="text-foreground/50 text-sm">
-            © {new Date().getFullYear()} Techies MU. All rights reserved.
+            © {new Date().getFullYear()} Techies MU. All rights reserved. 
           </p>
-          
+          <p className="text-foreground/50 text-sm">
+          Made with ❤️ by the NexusGK team
+          </p>
           <div className="mt-4 md:mt-0 text-foreground/50 text-sm flex space-x-4">
             <a href="#" className="hover:text-foreground transition-colors">Privacy Policy</a>
             <a href="#" className="hover:text-foreground transition-colors">Terms of Service</a>
