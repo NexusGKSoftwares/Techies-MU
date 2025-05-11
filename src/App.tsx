@@ -10,6 +10,7 @@ import EventDetails from "./pages/EventDetails";
 import Team from "./pages/Team";
 import NotFound from "./pages/NotFound";
 import Events from "./pages/Events";
+import About from "./pages/About";
 
 const queryClient = new QueryClient();
 
@@ -22,6 +23,7 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/about" element={<About />} />
           <Route path="/events" element={<Events />} />
           <Route path="/events/:id" element={<EventDetails />} />
           <Route path="/team" element={<Team />} />
