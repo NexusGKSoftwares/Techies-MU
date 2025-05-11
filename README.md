@@ -1,73 +1,91 @@
-# Welcome to your Lovable project
 
-## Project info
+## Badges
 
-**URL**: https://lovable.dev/projects/f9e5b4b9-917c-4fc4-b2d4-2549061813a6
+![GitHub Repo Stars](https://img.shields.io/github/stars/NexusGKSoftwares/Techies-MU?style=social)
+![GitHub Repo Forks](https://img.shields.io/github/forks/NexusGKSoftwares/Techies-MU?style=social)
+![GitHub Issues](https://img.shields.io/github/issues/NexusGKSoftwares/Techies-MU)
+![GitHub Last Commit](https://img.shields.io/github/last-commit/NexusGKSoftwares/Techies-MU)
+![GitHub License](https://img.shields.io/github/license/NexusGKSoftwares/Techies-MU)
+![GitHub Release](https://img.shields.io/github/release/NexusGKSoftwares/Techies-MU)
+# Techies MU Website
 
-## How can I edit this code?
+**Techies MU** is a student-led tech community aimed at promoting digital literacy, coding, and innovation among students at Moi University. This website serves as the hub for Techies MU's events, programs, and activities.
 
-There are several ways of editing your application.
+## Table of Contents
 
-**Use Lovable**
+* [Techies MU Website](#Techies-MU)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/f9e5b4b9-917c-4fc4-b2d4-2549061813a6) and start prompting.
+  * [Description](#description)
+  * [Technologies Used](#technologies-used)
+  * [Features](#features)
+  * [Installation Instructions](#installation-instructions)
+  * [Usage](#usage)
+  * [Contributing](#contributing)
+  * [License](#license)
+  * [Badges](#badges)
 
-Changes made via Lovable will be committed automatically to this repo.
+## Description
 
-**Use your preferred IDE**
+This is the official website for **Techies MU**, built using **React** and **Tailwind CSS**. The site includes vibrant neon gradients and a tech-inspired aesthetic, featuring an advanced hero section, a team member showcase, and dynamic visual styles. The site is designed to be responsive with parallax scroll effects and smooth animations.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Technologies Used
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+* **React.js** for the front-end framework
+* **Tailwind CSS** for utility-first styling
+* **React Router** for navigation
+* **AOS (Animate On Scroll)** for scroll-based animations
+* **GitHub Pages** (or any other deployment platform) for hosting
 
-Follow these steps:
+## Features
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+* **Hero Section**: A vibrant, animated hero section with a glowing gradient background and call-to-action buttons.
+* **About Us**: Describes the mission and vision of Techies MU.
+* **Programs & Activities**: Information about digital skills workshops, coding bootcamps, hackathons, and tech talks.
+* **Featured Event Section**: Details about the "Introduction to Digital Skills" event, including topics covered and event dates.
+* **Join Us**: A call-to-action for students to join Techies MU with a registration form or a WhatsApp contact link.
+* **Footer**: Contains links to social media, "Powered by MoiHub," and contact info.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## Installation Instructions
 
-# Step 3: Install the necessary dependencies.
-npm i
+To get started with the development of this project locally:
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+1. Clone the repository:
 
-**Edit a file directly in GitHub**
+   ```bash
+   git clone https://github.com/NexusGKSoftwares/Techies-MU.git
+   ```
+2. Navigate into the project folder:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+   ```bash
+   cd Techies-MU
+   ```
+3. Install dependencies:
 
-**Use GitHub Codespaces**
+   ```bash
+   npm install
+   ```
+4. Start the development server:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+   ```bash
+   npm start
+   ```
 
-## What technologies are used for this project?
+   This will open the website in your default browser at `http://localhost:3000`.
 
-This project is built with:
+## Usage
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+* The website will automatically open in the browser after starting the development server.
+* You can now edit and view the changes in real-time.
+* For deployment, use services like **GitHub Pages**, **Netlify**, or **Vercel** to host your website.
 
-## How can I deploy this project?
+## Contributing
 
-Simply open [Lovable](https://lovable.dev/projects/f9e5b4b9-917c-4fc4-b2d4-2549061813a6) and click on Share -> Publish.
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-name`).
+3. Make your changes and commit (`git commit -am 'Add new feature'`).
+4. Push to the branch (`git push origin feature-name`).
+5. Open a pull request.
 
-## Can I connect a custom domain to my Lovable project?
+## License
 
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
