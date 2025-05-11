@@ -1,6 +1,4 @@
 
-## Badges
-
 ![GitHub Repo Stars](https://img.shields.io/github/stars/NexusGKSoftwares/Techies-MU?style=social)
 ![GitHub Repo Forks](https://img.shields.io/github/forks/NexusGKSoftwares/Techies-MU?style=social)
 ![GitHub Issues](https://img.shields.io/github/issues/NexusGKSoftwares/Techies-MU)
