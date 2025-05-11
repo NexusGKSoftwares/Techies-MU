@@ -97,12 +97,13 @@ const Navbar: React.FC = () => {
             >
               Home
             </Link>
-            <button 
-              onClick={() => scrollToSection('about')}
-              className="text-foreground/80 hover:text-techies-pink transition-colors py-2 text-left"
+            <Link 
+              to="/about"
+              className={`text-foreground/80 hover:text-techies-pink transition-colors py-2 ${isActive('/about') && 'text-techies-pink'}`}
+              onClick={() => setIsMenuOpen(false)}
             >
               About
-            </button>
+            </Link>
             <Link 
               to="/team"
               className={`text-foreground/80 hover:text-techies-pink transition-colors py-2 ${isActive('/team') && 'text-techies-pink'}`}
@@ -110,12 +111,13 @@ const Navbar: React.FC = () => {
             >
               Team
             </Link>
-            <button 
-              onClick={() => scrollToSection('events')}
-              className="text-foreground/80 hover:text-techies-pink transition-colors py-2 text-left"
+            <Link 
+              to="/events"
+              className={`text-foreground/80 hover:text-techies-pink transition-colors py-2 ${isActive('/events') && 'text-techies-pink'}`}
+              onClick={() => setIsMenuOpen(false)}
             >
               Events
-            </button>
+            </Link>
             <Link 
               to="/contact"
               className={`text-foreground/80 hover:text-techies-pink transition-colors py-2 ${isActive('/contact') && 'text-techies-pink'}`}
