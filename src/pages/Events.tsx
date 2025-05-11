@@ -22,8 +22,31 @@ const Events: React.FC = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <Navbar />
+      <div className="relative w-full min-h-screen bg-black text-white overflow-hidden">
+      {/* Glowing Background */}
+      <div className="absolute inset-0 z-0">
+        <div className="absolute w-[600px] h-[600px] bg-purple-500 rounded-full mix-blend-screen filter blur-[150px] opacity-30 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" />
+        <div className="absolute w-[400px] h-[400px] bg-blue-500 rounded-full mix-blend-screen filter blur-[120px] opacity-20 top-[30%] left-[20%]" />
+        <div className="absolute w-[300px] h-[300px] bg-pink-500 rounded-full mix-blend-screen filter blur-[100px] opacity-30 bottom-[20%] right-[20%]" />
+      </div>
 
-      <main className="flex-1 bg-background">
+      {/* Foreground Text Content */}
+      <div className="relative z-10 flex flex-col items-center justify-center text-center px-4 py-32">
+        <h1 className="text-5xl md:text-7xl font-bold tracking-tight bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent">
+          TECHIES MU
+        </h1>
+        <p className="mt-6 text-lg md:text-xl text-gray-300 max-w-2xl">
+          A vibrant community of tech minds at Meru University. Building, sharing, and innovating together.
+        </p>
+        <div className="mt-8">
+          <a
+            href="#join"
+            className="px-6 py-3 bg-gradient-to-r from-purple-600 to-blue-600 rounded-full shadow-lg hover:scale-105 transition-transform duration-300"
+          >
+            Join the Movement 🚀
+          </a>
+       
+      <main className="flex-1">
         <section className="container mx-auto px-4 py-12 md:py-16">
           <motion.h1 
             initial={{ opacity: 0, y: 10 }} 
@@ -75,7 +98,9 @@ const Events: React.FC = () => {
           </div>
         </section>
       </main>
-
+      </div>
+      </div>
+    </div>
       <Footer />
     </div>
   );
