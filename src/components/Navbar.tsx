@@ -56,12 +56,12 @@ const Navbar: React.FC = () => {
             >
               Team
             </Link>
-            <button 
-              onClick={() => scrollToSection('events')}
-              className="text-foreground/80 hover:text-techies-pink transition-colors"
+            <Link 
+              to="/events"
+              className={`text-foreground/80 hover:text-techies-pink transition-colors ${isActive('/events') && 'text-techies-pink'}`}
             >
               Events
-            </button>
+            </Link>
             <Link 
               to="/contact"
               className={`text-foreground/80 hover:text-techies-pink transition-colors ${isActive('/contact') && 'text-techies-pink'}`}
