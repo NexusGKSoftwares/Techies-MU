@@ -67,7 +67,9 @@ const ProgramsSection: React.FC = () => {
   return (
     <section id="programs" className="relative py-20 px-4 bg-gradient-to-b from-background to-muted/50">
       <div className="absolute inset-0 overflow-hidden z-0">
-        <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBmaWxsPSIjMjAyMDNjIiBkPSJNMCAwaDYwdjYwSDB6Ii8+PHBhdGggZD0iTTMwIDMwbDEtMSAxIDFNMzEgMzFsLTEgMS0xLTF6IiBzdHJva2U9IiMzMDMwNTAiIHN0cm9rZS1saW5lY2FwPSJzcXVhcmUiLz48L2c+PC9zdmc+')] opacity-10"></div>
+        <div className="absolute top-1/3 right-1/4 w-64 h-64 rounded-full bg-techies-neon-pink/15 filter blur-3xl"></div>
+        <div className="absolute bottom-1/3 left-1/4 w-72 h-72 rounded-full bg-techies-hot-pink/15 filter blur-3xl"></div>
+        <div className="absolute top-2/3 left-1/2 w-48 h-48 rounded-full bg-techies-magenta/20 filter blur-2xl"></div>
       </div>
       
       <div className="container mx-auto relative z-10">

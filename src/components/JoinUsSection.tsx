@@ -24,8 +24,10 @@ const JoinUsSection: React.FC = () => {
 
   return (
     <section id="join" className="relative py-20 px-4">
-      <div className="absolute inset-0 overflow-hidden z-0">
-        <div className="absolute inset-0 bg-gradient-to-b from-muted/50 to-background"></div>
+   <div className="absolute inset-0 overflow-hidden z-0">
+        <div className="absolute top-1/3 right-1/4 w-64 h-64 rounded-full bg-techies-neon-pink/15 filter blur-3xl"></div>
+        <div className="absolute bottom-1/3 left-1/4 w-72 h-72 rounded-full bg-techies-hot-pink/15 filter blur-3xl"></div>
+        <div className="absolute top-2/3 left-1/2 w-48 h-48 rounded-full bg-techies-magenta/20 filter blur-2xl"></div>
       </div>
       
       <div className="container mx-auto relative z-10">

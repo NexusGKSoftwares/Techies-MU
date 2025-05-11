@@ -70,13 +70,13 @@ const Footer: React.FC = () => {
         </div>
         
         <div className="mt-10 pt-6 border-t border-muted flex flex-col md:flex-row justify-between items-center">
-          <p className="text-foreground/50 text-sm">
+          <p className="text-gradient">
             © {new Date().getFullYear()} Techies MU. All rights reserved. 
           </p>
-          <p className="text-foreground/50 text-sm">
-          Made with ❤️ by the NexusGK team
+          <p className="text-gradient">
+          Made with ❤️ by the NexusGK 
           </p>
-          <div className="mt-4 md:mt-0 text-foreground/50 text-sm flex space-x-4">
+          <div className="mt-4 md:mt-0 text-gradient flex space-x-4">
             <a href="#" className="hover:text-foreground transition-colors">Privacy Policy</a>
             <a href="#" className="hover:text-foreground transition-colors">Terms of Service</a>
           </div>
