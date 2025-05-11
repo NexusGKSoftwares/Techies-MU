@@ -107,7 +107,7 @@ const HeroSection: React.FC = () => {
           
           <motion.p 
             variants={itemVariants}
-            className="text-xl md:text-2xl font-medium text-foreground/90 max-w-2xl"
+            className="text-5xl md:text-6xl font-bold font-techies bg-gradient-to-r from-pink-500 via-blue-500 to-purple-500 bg-clip-text text-transparent animate-text-glow"
           >
             Empowering Students Through Technology
           </motion.p>
