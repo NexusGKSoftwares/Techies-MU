@@ -39,12 +39,12 @@ const Events: React.FC = () => {
                         A vibrant community of tech minds at Meru University. Building, sharing, and innovating together.
                     </p>
                     <div className="mt-8">
-                        <a
-                            href="#join"
-                            className="px-6 py-3 bg-gradient-to-r from-purple-600 to-blue-600 rounded-full shadow-lg hover:scale-105 transition-transform duration-300"
-                        >
-                            Join the Movement 🚀
+                        <a href="/contact" className="relative inline-block px-8 py-3 font-medium group">
+                            <span className="absolute inset-0 w-full h-full transition duration-300 ease-out transform translate-x-1 translate-y-1 bg-techies-purple group-hover:-translate-x-0 group-hover:-translate-y-0"></span>
+                            <span className="absolute inset-0 w-full h-full bg-techies-pink border-2 border-black group-hover:bg-techies-purple"></span>
+                            <span className="relative text-white group-hover:text-white">Join Us</span>
                         </a>
+
 
                         <main className="flex-1">
                             <section className="container mx-auto px-4 py-12 md:py-16">
